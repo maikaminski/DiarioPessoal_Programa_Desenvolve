@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #c1b2c1;
+    background-color: black;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
@@ -14,10 +14,11 @@ header {
 .title {
     text-align: center;
     padding: 0.5em;
-    margin-bottom: 2em;
+    
 }
 .container {
-   display: flex;
+   margin-top: 2em;
+    display: flex;
    flex-wrap: wrap;
    justify-content: center;
    gap: 2em;
@@ -31,6 +32,9 @@ header {
     display: flex;
     flex-direction: column;   
     text-align: center;
+}
+.card:hover {
+    width: 60%;
 }
 .time {
     margin-left: auto;
@@ -49,4 +53,11 @@ footer {
 
 .subtitle, .text {
     padding: 0.5em;
+}
+
+.parallax {
+ background-image: url(fundo.webp);
+  background-size: cover; 
+  background-attachment: fixed;
+  
 }
